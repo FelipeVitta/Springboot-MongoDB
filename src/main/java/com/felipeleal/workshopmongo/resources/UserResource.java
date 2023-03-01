@@ -62,7 +62,6 @@ public class UserResource {
 		obj.setId(id);
 		obj = userService.update(obj);
 		return ResponseEntity.noContent().build();
-
 	}
 			
 		
